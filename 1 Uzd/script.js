@@ -1,5 +1,5 @@
 let x = +prompt ("Įveskite skaičių");
-pavadinimas = menesioPavadinimas (x);
+let pavadinimas = menesioPavadinimas (x);
 console.log("menesio pavadinimas yra" + pavadinimas);
 
 function gazintiMensioPavadinima(menesioSkaicius) {
@@ -45,5 +45,5 @@ function gazintiMensioPavadinima(menesioSkaicius) {
             menesioPavadinimas = "netinkamas menesio pavadinimas"
             break;
     }
-    return menesioPavadinimas
+    return pavadinimas
 }
